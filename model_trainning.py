@@ -27,7 +27,7 @@ def vectorize_audio(audiopath):
 
 
 #data labelling
-data_dir = "D:\Users\850034074\Desktop\Speech_Recognition and emotion detection\\bank\\NewSamples"
+data_dir = "D:\Users\shubham\Desktop\Speech_Recognition and emotion detection\\bank\\NewSamples"
 audio_files = os.listdir(data_dir)
 # (0:angry, 1:sad, 2:neutral, 3:happy)
 dict_to_map = {'1' : 2, '3' : 3, '4' : 1, '5' : 0}
